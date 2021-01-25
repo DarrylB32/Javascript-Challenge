@@ -7,7 +7,7 @@ Using the [UFO dataset](Static/js/data.js) (provided in the form of an array of 
 * HTML
 
 ### User Instructions
-* Clone the repository: git clone https://github.com/DarrylB32/Javascript-Filter_for_UFO_Sightings
+* Clone the repository: git clone https://github.com/DarrylB32/Javascript-Filter_for_UFO_Sightings.git 
 *  In command: python -m http.server 
 *  In web browser: http://localhost:8000/
 ![Screenshot](ReadMe_Resources/Screenshot.png)

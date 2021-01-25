@@ -1,4 +1,4 @@
-// import ufa sightings from data.js
+// import ufo sightings from data.js
 var sightingsData = data;
 
 // Function to display data
@@ -19,17 +19,17 @@ displayData(sightingsData);
 d3.select("#filter-btn").on("click", runEnter);
 d3.select("form").on("submit",runEnter);
 
-// Complete the event handler function for the form
+// Event handler function
 function runEnter() {
 
-  // Prevent the page from refreshing
+  // Prevents the page from refreshing
   d3.event.preventDefault();
   
-  // Get the value property of the input element
+  // Value property of the input element
   var inputValue = d3.select("input").property("value");
 
   // Display input value to console
-  // console.log(inputValue);
+  console.log(inputValue);
 
   // Filter data by date (input value)
   var filteredData = sightingsData.filter(sighting => sighting.datetime === inputValue);
